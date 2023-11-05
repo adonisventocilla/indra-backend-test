@@ -1,6 +1,6 @@
 import { Given, When, Then } from "@cucumber/cucumber"
 import { expect } from "chai"
-import { SwapiService } from "../../../src/services/external/swapi.service"
+import { SwapiService } from "../../../../src/services/external/swapi.service"
 
 let starshipInfo: any
 
